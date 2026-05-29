@@ -1,0 +1,25 @@
+    swiper-container {
+      width: 100vw;
+      height: 100%;
+      overflow: hidden; /* Empêche les images de déborder */
+      background-color: #f0f0f0;
+    }
+
+    swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #444;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+    }
+
+    swiper-slide img {
+      display: block;
+      width: 100vw;
+      height: 100%;
+      object-fit: cover;
+      object-position: center start;
+      z-index: 5;
+    }

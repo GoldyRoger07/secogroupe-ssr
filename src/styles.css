@@ -1,3 +1,255 @@
 /* You can add global styles to this file, and also import other style files */
 
 @import "tailwindcss";
+
+ @import './myfonts.css';
+  
+.inter-100,
+.inter-200,
+.inter-300,
+.inter-400,
+.inter-500,
+.inter-600,
+.inter-700,
+.inter-800,
+.inter-900 {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+.inter-100{
+    font-weight: 100;
+}
+
+.inter-200{
+    font-weight: 200;
+}
+
+.inter-300{
+    font-weight: 300;
+}
+
+.inter-400{
+    font-weight: 400;
+}
+
+.inter-500{
+    font-weight: 500;
+}
+
+.inter-600{
+    font-weight: 600;
+}
+
+.inter-700{
+    font-weight: 700;
+}
+
+.inter-800{
+    font-weight: 800;
+}
+
+.inter-900{
+    font-weight: 900;
+} 
+
+
+html{
+  overflow-x: hidden;
+ }
+   
+   :root{
+            --v4-prim-bg: #faaf3b;
+            --v4-sec-bg: #0c73ba;
+            --my-prim-bg: #0d6efd;
+            --my-sec-bg: #fbad19;
+            --my-hover-prim-bg: #0b5dd9;
+            --my-hover-sec-bg: #d59113;
+            --text-color: #4a4a4a;
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+            scroll-behavior: auto !important;
+            width: 100%;
+        }
+        .hero-gradient {
+            background: linear-gradient(135deg, #f5f7fa 0%, #e4e8f0 100%);
+        }
+        .service-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+        .nav-link {
+      position: relative;
+    }
+
+    .nav-link.active{
+      color: var(--my-sec-bg);
+    }
+    .nav-link::after {
+      content: "";
+      position: absolute;
+      width: 0%;
+      height: 2px;
+      left: 0;
+      bottom: -2px;
+      background: var(--my-sec-bg); /* Bleu Tailwind (blue-500) */
+      transition: width 0.3s ease;
+    }
+    .nav-link:hover::after {
+      width: 100%;
+    }
+
+         @keyframes marquee {
+            0% { transform: translateX(0%); }
+            100% { transform: translateX(-50%); }
+        }
+        .marquee {
+            display: flex;
+            width: max-content;
+            animation: marquee 20s linear infinite;
+        }
+
+
+    .auto-rotate{
+      animation: auto-rotate-animation;
+      animation-timeline: view();
+    }
+
+
+    @keyframes auto-rotate-animation {
+      from{
+        transform: rotate(0deg);
+      }
+
+      to{
+        transform: rotate(360deg);
+      }
+    }
+
+    .auto-show{
+      animation: text-appear both;
+      animation-timeline: view();
+      animation-range: entry 20% cover 100vh;
+    }
+
+    @keyframes text-appear {
+      from{
+        opacity: 0;
+        transform: translateY(100px);
+      }
+      to{
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .image-reveal{
+      animation: image-reveal-animation both;
+      animation-timeline: view(10% 5%);
+    }
+
+    @keyframes image-reveal-animation {
+      from{
+        filter: saturate(0) contrast(4) brightness(.1) blur(5px);
+        opacity: 0;
+        scale: .95;
+        translate: 0 4rem;
+      }
+      to{
+        filter: none;
+        opacity: 1;
+        scale: 1;
+        translate: 0 0;
+      }
+    }
+
+    /* .fade-up{
+      animation: fade-up-animation;
+      animation-timeline: view()
+    }
+
+    @keyframes fade-up-animation {
+      from{
+        opacity: 0%;
+        transform: translateY(10px) scale(0.5);
+      }
+      to{
+        opacity: 1;
+        transform: translateY(0) scale(1);
+      }
+    } */
+
+
+
+.typewriter-container{
+  display: inline-block;
+}
+
+.typewriter-text{
+  /* border-right: 5px solid; */
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 2s steps(13);
+              /* cursor 400ms step-end infinite alternate;  */
+}
+
+@keyframes cursor{
+  50%{
+    border-color: transparent;
+  }
+}
+
+@keyframes typing{
+  from{
+    width: 0;
+  }
+}
+
+.fade-up{
+    transform: translateY(10%) scale(0.9);
+    opacity: 0.9;
+    transition: all 700ms ease-in-out ;
+    /* transition-delay: 500ms; */
+}
+
+.section-animate.active .fade-up{
+    transform: translateY(0%) scale(1);
+    opacity: 1;
+}
+
+.fade-right{
+    transform: translateX(-5%);
+    opacity: 0.9;
+    transition: all 700ms ease-in-out ;
+    /* transition-delay: 500ms; */
+}
+
+.section-animate.active .fade-right{
+    transform: translateX(0%);
+    opacity: 1;
+}
+
+.fade-left{
+    transform: translateX(5%);
+    opacity: 0.9;
+    transition: all 700ms ease-in-out ;
+    transition-delay: 500ms;
+}
+
+.section-animate.active .fade-left{
+    transform: translateX(0%);
+    opacity: 1;
+}
+
+.border-gradient{
+  /* border-color: linear-gradient(to right, #faaf3b, #ffbd5a, #faaf3b); */
+  border-color:  #faaf3b;
+}
+
+.map-card{
+  aspect-ratio: 5 / 6;
+}

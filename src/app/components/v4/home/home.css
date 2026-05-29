@@ -1,0 +1,50 @@
+/* .cover-nav{
+    background-image: linear-gradient(to top, #aaa8a5, transparent);
+    linear-gradient(to right, #ffffff, transparent, #fff),
+} */
+
+.hero-section{
+   position: relative;
+    --current-image: url('/v4/img/hero_section.jpg');
+    
+    background-image: var(--current-image);
+    background-position: start;
+    background-size: cover;
+    aspect-ratio:  16 / 9;
+     /* linear-gradient(to right, #ffffff, transparent, #fff), linear-gradient(to bottom, #ffffff 0%, transparent 5%),  var(--current-image); */
+    opacity: 1;
+     
+     transition: opacity 0.5s ease-in-out;
+
+}
+
+/* .hero-section::before,.hero-section::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 10px;
+    background: #fff;
+}
+
+.hero-section::before{ 
+    left:0;
+    transform: translateX(-1px);
+    
+}
+.hero-section::after{
+    right:0;
+    transform: translateX(1px);
+    
+} */
+
+.hero-section.fade{
+    opacity: 0;
+}
+
+ 
+
+/* .hero-section::after{
+    content:"";
+    background-image: (to right, #ffffff, transparent, #fff);
+    z-index: 4;
+} */

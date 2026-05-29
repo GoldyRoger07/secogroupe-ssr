@@ -1,0 +1,82 @@
+<footer [ngClass]="['text-gray-500', 'py-12', 'w-screen']" >
+        <!-- <div class="container mx-auto px-6"> -->
+            <my-container>
+                <div class="grid px-5 md:px-0 grid-cols-2 md:grid-cols-4 gap-8 col-span-4 md:col-span-8 lg:col-span-12">
+                    <div>
+                        
+                        <img data-aos="zoom-in" data-aos-duration="1500" src="img/logos/new_seco_logo.png" class="w-[150px] mb-5" alt="">
+                        <p class="text-gray-500 mb-6">
+                            {{'FOOTER.TITLE' | translate}}
+                        </p>
+                        <div class="flex space-x-4" >
+                            <a href="#" class="text-gray-500 hover:text-gray-600">
+                                <i data-feather="facebook" class="w-5 h-5"></i>
+                            </a>
+                            <a href="#" class="text-gray-500 hover:text-gray-600">
+                                <i data-feather="twitter" class="w-5 h-5"></i>
+                            </a>
+                            <a href="#" class="text-gray-500 hover:text-gray-600">
+                                <i data-feather="linkedin" class="w-5 h-5"></i>
+                            </a>
+                            <a href="#" class="text-gray-500 hover:text-gray-600">
+                                <i data-feather="instagram" class="w-5 h-5"></i>
+                            </a>
+                        </div>
+                    </div>
+                
+                    <div>
+                        <h4 class="font-bold text-lg mb-6">Services</h4>
+                        <ul class="space-y-3">
+                            <li><a href="#" class="text-gray-500 hover:text-gray-600">Security</a></li>
+                            <li><a href="#" class="text-gray-500 hover:text-gray-600">Building Maintenance</a></li>
+                            <li><a href="#" class="text-gray-500 hover:text-gray-600">Housekeeping</a></li>
+                            <li><a href="#" class="text-gray-500 hover:text-gray-600">Janitorial</a></li>
+                            <li><a href="#" class="text-gray-500 hover:text-gray-600">Concierges</a></li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h4 class="font-bold text-lg mb-6">Seco Groupe</h4>
+                        <ul class="space-y-3">
+                            <li><a routerLink="/privacy-policy" class="text-gray-500 hover:text-gray-600">Privacy Policy</a></li>
+                            <li><a routerLink="/terms-of-service" class="text-gray-500 hover:text-gray-600">Terms Of Service</a></li>
+                            <li><a routerLink="/cookie-policy" class="text-gray-500 hover:text-gray-600">Cookie Policy</a></li>
+                            
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h4 class="font-bold text-lg mb-6">{{'FOOTER.SOCIAL_LINK_TITLE' | translate}}</h4>
+                        <ul class="flex items-center gap-3 text-2xl">
+                            <li>
+                                <a href="https://wa.me/13056478365" class="text-gray-500 hover:text-gray-600">
+                                    <i class="ri-whatsapp-fill"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.facebook.com/secogroupehaiti" class="text-gray-500 hover:text-gray-600">
+                                    <i class="ri-facebook-box-fill"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/secogroupe/?utm_source=ig_web_button_share_sheet" class="text-gray-500 hover:text-gray-600">
+                                    <i class="ri-instagram-fill"></i>
+                                </a>
+                            </li>
+                            <!-- <li><a href="#" class="text-gray-500 hover:text-gray-600">Developers</a></li>
+                            <li><a href="#" class="text-gray-500 hover:text-gray-600">API Docs</a></li> -->
+                        </ul>
+                    </div>
+
+                </div>
+
+                <div class="border-t border-gray-300 mt-6 pt-4 flex flex-col md:flex-row justify-center items-center col-span-4  md:col-span-8 lg:col-span-12">
+                    <p class="text-gray-500 mb-4 md:mb-0 text-center">
+                        © 2025 Seco Groupe. All rights reserved.
+                    </p>
+                    
+                </div>
+            </my-container>
+            
+        <!-- </div> -->
+    </footer>

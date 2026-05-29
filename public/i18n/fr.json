@@ -1,0 +1,325 @@
+{
+  "HOME": {
+    "MY_HERO":{
+      "TITLE": "Une nouvelle vision pour votre établissement avec <span class='text-(--my-sec-bg)'>SECO GROUPE</span>",
+      "DESC": "Chez SECO GROUPE, nous ne voyons pas seulement un bâtiment ; nous voyons une opportunité de créer un espace plus intelligent, plus résilient et plus connecté qui apporte une réelle valeur ajoutée.",  
+      "CTA":"Travaillons ensemble"
+    },
+    "PARTNERSHIP": {
+      "TITLE": "Le partenariat est au cœur de notre activité.",
+      "DESC1": "Votre installation est un atout essentiel, et votre vision est notre feuille de route. Chez SECO GROUPE, nous collaborons avec vous pour transformer vos infrastructures les plus critiques en environnements modernes, efficaces et sains.",
+      "DESC2": "Nous vous offrons un point de contact unique pour simplifier la gestion et atteindre vos objectifs.",
+      "POINT_TITLE": "Point de contact unique",
+      "POINT_DESC": "Communication fluide et responsabilité centralisée"
+    },
+
+    "MAP": {
+      "TITLE": "Où nous opérons",
+      "TITLE_S1": "Où",
+      "TITLE_S2": "Nous",
+      "TITLE_S3": "opérons",
+      "DESC": "Nous fournissons nos services premium dans plusieurs pays à travers le monde",
+      "BTN": "Nos services"
+    },
+
+    "EXPERTISE": {
+      "TITLE": "Une expertise conçue pour répondre à vos besoins.",
+      "DESC": "Les défis uniques de votre installation exigent une approche personnalisée. L'équipe pluridisciplinaire de SECO GROUPE propose des services complets et intégrés qui garantissent la performance optimale de votre bâtiment tout au long de son cycle de vie."
+    },
+
+    "FACILITY": {
+      "TITLE": "Gestion des installations",
+      "DESC": "De l'extérieur à l'intérieur, nous créons des environnements impeccables, sûrs et professionnels. Nos solutions de gestion prennent en charge chaque détail, vous permettant ainsi de vous concentrer sur votre cœur de métier.",
+      "CLEANING_TITLE": "Nettoyage et maintenance",
+      "CLEANING_DESC": "Nous prenons en charge l'entretien quotidien et programmé afin de maintenir votre espace impeccable et d'assurer son bon fonctionnement.",
+      "PROPERTY_TITLE": "Support immobilier",
+      "PROPERTY_DESC": "Une gamme complète de services pour soutenir vos opérations et le bien-être de vos occupants.",
+      "TRANSPORT_TITLE": "Solutions de transport",
+      "TRANSPORT_DESC": "Gestion fluide du stationnement et de la circulation des véhicules pour améliorer la sécurité et l'efficacité.",
+      "OUTDOOR_TITLE": "Entretien extérieur",
+      "OUTDOOR_DESC": "Professional landscape and groundskeeping services to maintain your facility's exterior appearance."
+    },
+
+    "INFRA": {
+      "TITLE": "Solutions d'infrastructure",
+      "DESC": "Nombreux sont les gestionnaires d'immeubles qui négligent le potentiel d'économies et de gains d'efficacité importants. SECO GROUPE propose une feuille de route stratégique assortie d'un plan financier clair, d'une mise en œuvre experte et d'un soutien opérationnel à long terme pour assurer la pérennité de votre établissement.",
+      "OPERATIONS_TITLE": "Opérations et maintenance",
+      "OPERATIONS_DESC": "Supervision proactive et stratégique pour garantir le fonctionnement optimal de tous les systèmes.",
+      "MODERN_TITLE": "Modernisation",
+      "MODERN_DESC": "Des solutions pour électrifier et moderniser vos infrastructures afin d'améliorer leurs performances et leur durabilité.",
+      "HVAC_TITLE": "Systèmes CVC",
+      "HVAC_DESC": "Des soins experts pour votre chauffage, votre climatisation et votre ventilation afin de garantir votre confort et la qualité de l'air.",
+      "CRITICAL_TITLE": "Systèmes critiques",
+      "CRITICAL_DESC": "Nous gérons et optimisons l'infrastructure essentielle de votre bâtiment afin d'éviter les temps d'arrêt et le gaspillage."
+    },
+
+    "INDUSTRIES": {
+      "TITLE": "Secteurs desservis",
+      "DESC": "Des solutions adaptées à divers secteurs."
+    },
+
+    "ADVANTAGES": {
+      "TITLE": "Nos avantages concurrentiels",
+      "DESC": "Ce qui nous distingue.",
+      "EXCELLENCE_TITLE": "Excellence de service",
+      "EXCELLENCE_DESC": "Nous garantissons une qualité supérieure.",
+      "CUSTOMER_TITLE": "Satisfaction client",
+      "CUSTOMER_DESC": "Votre succès est notre priorité.",
+      "SUPPORT_TITLE": "Support 24h/24",
+      "SUPPORT_DESC": "Disponible à tout moment."
+    },
+
+    "WORK": {
+      "TITLE": "Nos réalisations",
+      "DESC": "Découvrez nos projets récents",
+      "BTN": "Voir plus"
+    },
+
+    "CLIENTS": {
+      "TITLE": "Nos clients",
+      "DESC": "Nous collaborons avec des partenaires de confiance."
+    },
+
+    "CONTACT": {
+      "TITLE": "Contactez-nous",
+      "DESC": "Prêt à démarrer votre projet ?",
+      "EMAIL": "Email",
+      "CALL": "Téléphone",
+      "VISIT": "Adresse",
+      "FORM_TITLE": "Envoyez-nous un message",
+      "NAME": "Votre nom",
+      "EMAIL_LABEL": "Adresse email",
+      "MESSAGE": "Votre message",
+      "BTN": "Envoyer"
+    }
+  },
+
+    "NAVBAR": {
+        "LINKS": {
+            "LINK1_TITLE": "Accueil",
+            "LINK2_TITLE": "À propos",
+            "LINK3_TITLE": "Services",
+            "LINK4_TITLE": "Postuler maintenant",
+            "LINK5_TITLE": "Contact"
+        }
+    },
+    "FOOTER":{
+        "TITLE": "Une nouvelle vision pour votre établissement",
+        "SOCIAL_LINK_TITLE": "Rejoignez-nous"
+    },
+    "hiring":{
+        "title": "Rejoignez {{companyName}}",
+        "description": "Nous recherchons des talents motivés et engagés. Consultez nos offres et téléchargez les avis de recrutement.",
+        "cards":{
+            "card1":{
+                "title": "Comptable",
+                "description": "Gestion financière, suivi des opérations comptables et production de rapports fiables.",
+                "textBtn": "Regarder le fichier PDF"
+            },
+            "card2":{
+                "title": "Graphiste",
+                "description": "Création de visuels modernes pour renforcer l'identité visuelle de l'entreprise.",
+                "textBtn": "Regarder le fichier PDF"
+            },
+            "card3":{
+                "title": "Agent Commercial",
+                "description": "Développement du portefeuille client et promotion des services.",
+                "textBtn": "Regarder le fichier PDF"
+            },
+            "card4":{
+                "title": "Recruteur",
+                "description": "Identification et sélection des talents, gestion du processus de recrutement.",
+                "textBtn": "Regarder le fichier PDF"
+            }
+        },
+
+        "section3":{
+            "title": "Vous souhaitez rejoindre notre équipe ?",
+            "description": "Postulez dès aujourd’hui et faites partie de SECOGROUPE.",
+            "textBtn": "Postuler maintenant"
+            
+        }
+    },
+     "SERVICES_USA":{
+    "TITLE": "Hospitality Support, Building Maintenance, Janitorial & Cleaning, Staffing Solutions, Concierge & Security Experts",
+    "CTAs": {
+      "CTA1": "Request a quote",
+      "CTA2": "Request a work order"
+    },
+    "SECTION_SERVICES":{
+      "TITLE": "Our Services",
+      "CARDS":{
+        "CARD1":{
+          "FRONT":{
+            "TITLE": "Security & Concierge"
+          },
+          "BACK":{
+            "TITLE": "Your Safety, Our Priority",
+            "DESC": "Comprehensive protection tailored to your peace of mind. From elite manned guarding to advanced surveillance solutions, we provide a secure environment for your assets, employees, and premises."
+          }
+        },
+        "CARD2":{
+          "FRONT":{
+            "TITLE": "Building Maintenance"
+          },
+          "BACK":{
+            "TITLE": "Preserving Your Property's Excellence",
+            "DESC": "We ensure your infrastructure operates at peak performance. Our proactive maintenance services cover MEP (Mechanical, Electrical, Plumbing), civil works, and general repairs to extends the life of your facility."
+          }
+        },
+        "CARD3":{
+          "FRONT":{
+            "TITLE": "Staffing Solutions"
+          },
+          "BACK":{
+            "TITLE": "Empowering Your Business with Right Talent",
+            "DESC": "Finding the right fit shouldn't be a challenge. We provide qualified, pre-vetted professionals across various industries, ensuring your team has the support it needs to scale and succeed."
+          }
+        },
+        "CARD4":{
+          "FRONT":{
+            "TITLE": "Hospitality Support"
+          },
+          "BACK":{
+            "TITLE": "Impeccable Standards for Every Space",
+            "DESC": "Experience a higher level of cleanliness. Our housekeeping team specializes in detailed care for residential and commercial spaces, ensuring a pristine environment that reflects your commitment to quality."
+          }
+        },
+        "CARD5":{
+          "FRONT":{
+            "TITLE": "Janitorial & Cleaning"
+          },
+          "BACK":{
+            "TITLE": "Cleanliness Built on Consistency",
+            "DESC": "We handle the heavy lifting of facility hygiene. Our janitorial services focus on high-traffic sanitation and deep-cleaning protocols to keep your workspace healthy, safe, and professional around the clock."
+          }
+        },
+        "CARD6":{
+          "FRONT":{
+            "TITLE": "Outdoor Care"
+          },
+          "BACK":{
+            "TITLE": "The First Impression Your Brand Deserves",
+            "DESC": "Elevate your guest experience with professional front-of-house services. Our concierge team combines hospitality with efficiency, managing inquiries and arrivals with grace and sophistication."
+          }
+        }
+      }
+    }
+  },
+  "SERVICES":{
+    "HERO_SECTION":{
+      "TITLE": "Your Trusted Partner in Facility and Staff Management",
+      "DESC": "Seco Groupe is a full-service facility management provider operating in the United States, Canada, and the Caribbean, dedicated to maintaining the functionality, safety, and cleanliness of commercial and residential properties. We specialize in integrated facility management, combining a variety of services to streamline operations and reduce overhead costs for our clients."
+    },
+    "SECTION_SERVICES":{
+      "TITLE": "Our <span class='text-(--my-sec-bg)'>Comprehensive </span>Services",
+      "SERVICES":{
+        "SERVICE1":{
+          "TITLE": "Janitorial & Cleaning",
+          "DESC": "Beyond simply cleaning, our services ensure a healthy, productive, and welcoming environment for your employees and clients.",
+          "CARDS":{
+            "CARD1":{
+              "TITLE": "Pristine Environments",
+              "DESC": "Daily, weekly, or custom cleaning schedules tailored to your facility's needs—from offices and commercial spaces to industrial sites."
+            },
+            "CARD2":{
+              "TITLE": "Health & Safety Focus",
+              "DESC": "Use of industry-leading practices and eco-friendly products to promote a sterile environment and reduce the spread of germs."
+            },
+            "CARD3":{
+              "TITLE": "Specialized Care",
+              "DESC": "Deep cleaning, floor care (stripping, waxing, buffing), window cleaning, and waste management."
+            }
+          }
+        },
+        "SERVICE2":{
+          "TITLE": "Building Maintenance",
+          "DESC": "Protecting your investment requires proactive and expert maintenance. We keep your infrastructure running smoothly and efficiently.",
+          "CARDS":{
+            "CARD1":{
+              "TITLE": "Preventative Maintenance",
+              "DESC": "Regular inspections and maintenance of essential building systems to minimize unexpected breakdowns and costly repairs."
+            },
+            "CARD2":{
+              "TITLE": "General Repairs",
+              "DESC": "Handyman services including minor plumbing, electrical, carpentry, drywall, and painting."
+            },
+            "CARD3":{
+              "TITLE": "HVAC & Equipment Oversight",
+              "DESC": "Coordination and basic maintenance checks for heating, ventilation, air conditioning, and other facility equipment."
+            },
+            "CARD4":{
+              "TITLE": "Groundskeeping (Optional highlight)",
+              "DESC": "Keeping the exterior professional and well-maintained."
+            }    
+          }
+        },
+        "SERVICE3":{
+          "TITLE": "Staffing Solutions",
+          "DESC": "When you need specialized help fast, our staffing division provides vetted, trained, and reliable personnel to fill essential roles within your facility or organization.",
+          "CARDS":{
+            "CARD1":{
+              "TITLE": "Flexible Staffing",
+              "DESC": "Temporary, temp-to-hire, and direct placement services to meet fluctuating demands."
+            },
+            "CARD2":{
+              "TITLE": "Vetted Professionals",
+              "DESC": "We handle all recruitment, screening, background checks, and initial training to ensure high-quality candidates."
+            },
+            "CARD3":{
+              "TITLE": "Focus Areas",
+              "DESC": "Provision of staff for all our core service areas (janitorial, maintenance, security, and concierge roles)."
+            }
+            
+          }
+        },
+        "SERVICE4":{
+          "TITLE": "Outdoor Care",
+          "DESC": "Elevate the experience for residents, tenants, and visitors with professional, hospitable, and highly effective concierge support.",
+          "CARDS":{
+            "CARD1":{
+              "TITLE": "First Impressions",
+              "DESC": "Highly trained, polished, and friendly personnel serving as the welcoming face of your building."
+            },
+            "CARD2":{
+              "TITLE": "Operational Support",
+              "DESC": "Managing front desk operations, package handling, visitor registration, access control, and amenity bookings."
+            },
+            "CARD3":{
+              "TITLE": "Customized Service",
+              "DESC": "Acting as a central hub for information and assistance, tailored to the specific needs of residential, corporate, or luxury properties."
+            }
+            
+          }
+        },
+        "SERVICE5":{
+          "TITLE": "Security & Concierge",
+          "DESC": "Protecting your assets, people, and property is our paramount commitment. Our security experts provide a powerful blend of technology and human presence.",
+          "CARDS":{
+            "CARD1":{
+              "TITLE": "24/7 Protection",
+              "DESC": "Trained and licensed security guards for static guarding, mobile patrols, and access control."
+            },
+            "CARD2":{
+              "TITLE": "Risk Assessment",
+              "DESC": "Comprehensive security audits to identify vulnerabilities and implement strategic protection plans."
+            },
+            "CARD3":{
+              "TITLE": "Integrated Solutions",
+              "DESC": "Deployment of advanced security technology, including surveillance (CCTV), alarm monitoring, and state-of-the-art access systems."
+            },
+            "CARD4":{
+              "TITLE": "Emergency Response",
+              "DESC": "Professional handling of security incidents, emergency situations, and immediate response coordination."
+            }
+            
+          }
+        }
+      }
+    },
+    "SECTION_CLIENTS":{
+      "TITLE": "Our <span class='text-(--my-sec-bg)'>Clients</span>",
+      "DESC": "We are proud to collaborate with trusted partners and clients who believe in our vision."
+    }
+  }
+}

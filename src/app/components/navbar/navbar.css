@@ -1,0 +1,20 @@
+.mobile-menu .links{
+    transition: translate 0.3s ease-in-out;
+    translate: 0 -120%;
+}
+
+.mobile-menu.open .links{
+    translate: 0 24%;
+}
+
+ /* a{
+      --link-color: red;
+      --text-color: #020202;
+      text-decoration: none;
+      transition: all 250ms ease-out;
+      color: --text-color;
+    } */
+
+    .active{
+        background: #faae3b85;
+    }

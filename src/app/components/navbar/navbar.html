@@ -1,0 +1,44 @@
+<nav class="md:bg-gray-700/45 w-full md:pt-3 pb-5 z-50 lg:px-2" [class.md:bg-transparent]="isTransparent">
+    <!-- "{'md:bg-transparent':isTransparent}" -->
+    <!-- bg-[#A29990] -->
+    <div class="hidden px-2.5 lg:p-5 max-w-8xl  gap-10 w-full md:flex  flex-col  items-center md:items-end md:flex-row md:justify-between mx-auto   pb-5 " [class]="!isTransparent ? 'border-b-2 border-white' : ''">
+        <a href="#">
+            <img src="v4/img/logo/logo_seco.png" class="min-w-20 w-20 md:w-35 lg:w-30" alt="logo">
+        </a>
+
+        <div class="flex">
+            <div class="flex flex-col md:flex-row items-center md:items-end gap-5 text-white josefin-sans">
+                <a routerLinkActive="bg-(--v4-prim-bg)/45 active josefin-sans-bold" [routerLinkActiveOptions]="{exact:true}" class="px-4 py-1 bg-(--v4-sec-bg)/45 rounded-md " routerLink="/">Home</a>
+                <a routerLinkActive="bg-(--v4-prim-bg)/45 active josefin-sans-bold" [routerLinkActiveOptions]="{exact:true}" class="px-4 py-1 bg-(--v4-sec-bg)/45 rounded-md" routerLink="/about-us">About Us</a>
+                <a routerLinkActive="bg-(--v4-prim-bg)/45 active josefin-sans-bold" [routerLinkActiveOptions]="{exact:true}" class="px-4 py-1 bg-(--v4-sec-bg)/45 rounded-md" routerLink="/services">Services</a>
+                <a routerLinkActive="bg-(--v4-prim-bg)/45 active josefin-sans-bold" [routerLinkActiveOptions]="{exact:true}" class="px-4 py-1 bg-(--v4-sec-bg)/45 rounded-md" routerLink="/hiring">Apply Now</a>
+                <a routerLinkActive="bg-(--v4-prim-bg)/45 active josefin-sans-bold" [routerLinkActiveOptions]="{exact:true}" class="px-4 py-1 bg-(--v4-sec-bg)/45 rounded-md" routerLink="/contact">Contact Us</a>
+                <!-- <li routerLinkActive="bg-(--v4-prim-bg)/45" class=" px-4 bg-(--v4-sec-bg)/45 rounded-md ">Blog</li> -->
+            </div>
+            <!-- <div class="relative">
+                <i class="ri-search-line absolute l-10"></i>
+                <input type="search" class="border-2 rounded-full border-(--v4-prim-bg) pl-10" placeholder="Search"/>
+            </div> -->
+        </div>
+
+        
+    </div>
+<!-- bg-[#A29990] -->
+    <div #mobileMenu class="relative  mobile-menu md:hidden" >
+        <div class="absolute bg-gray-700/35 w-full z-100 flex justify-between items-center px-5 py-5">
+            <a href="#">
+                <img src="v4/img/logo/logo_seco.png" class="min-w-25 w-25 md:w-35 lg:w-50" alt="logo">
+            </a>
+
+            <hamburger-btn #menuBtn (click)="onClickMenuBtn(menuBtn,mobileMenu)"/>
+        </div>
+
+        <div class="links bg-gray-700/35 absolute w-full z-99  py-5 flex flex-col md:flex-row items-center md:items-end gap-5 text-xl text-white josefin-sans ">
+            <a routerLink="/" routerLinkActive="bg-(--v4-prim-bg)/95 active josefin-sans-bold" [routerLinkActiveOptions]="{exact:true}" class="px-4 py-1 bg-(--v4-sec-bg)/95 rounded-md ">Home</a>
+            <a routerLink="/about-us" routerLinkActive="bg-(--v4-prim-bg)/95 active josefin-sans-bold" [routerLinkActiveOptions]="{exact:true}" class="px-4 py-1 bg-(--v4-sec-bg)/95 rounded-md">About Us</a>
+            <a routerLink="/services" routerLinkActive="bg-(--v4-prim-bg)/95 active josefin-sans-bold" [routerLinkActiveOptions]="{exact:true}" class="px-4 py-1 bg-(--v4-sec-bg)/95 rounded-md">Services</a>
+            <a routerLink="/hiring" routerLinkActive="bg-(--v4-prim-bg)/95 active josefin-sans-bold" [routerLinkActiveOptions]="{exact:true}" class="px-4 py-1 bg-(--v4-sec-bg)/95 rounded-md">Apply Now</a>
+            <a routerLink="/contact" routerLinkActive="bg-(--v4-prim-bg)/95 active josefin-sans-bold" [routerLinkActiveOptions]="{exact:true}" class="px-4 py-1 bg-(--v4-sec-bg)/95 rounded-md">Contact Us</a>
+        </div>
+    </div>
+</nav>

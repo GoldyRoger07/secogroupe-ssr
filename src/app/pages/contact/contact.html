@@ -1,0 +1,90 @@
+<v4-navbar/>
+<section>
+    <div class="overflow-hidden">
+        <div class="h-[50vh]">
+        <img src="img/compressed/get_in_touch_2.webp"
+            alt="Team working together"
+            class="w-full h-full object-cover " style="object-position: 0px -10px;">
+        </div>
+    
+  </div>
+</section>
+<!-- Contact Section -->
+    <section class="py-20 bg-gray-100  text-gray-600" id="contact">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col lg:flex-row">
+                <div class="lg:w-1/2 mb-12 lg:mb-0 flex flex-col gap-2">
+                    <div>
+                        <h2  class="text-3xl font-bold mb-6 text-gray-700">Get In <span class="text-(--my-sec-bg)">Touch</span></h2>
+                        <p  class="mb-8 max-w-md">
+                            Ready to start your project? Contact us today and let's discuss how we can help your business grow.
+                        </p>
+                    <div class="space-y-6">
+                        <div class="flex items-start">
+                            <div  class="bg-white bg-opacity-20 py-3 px-4 rounded-lg mr-4">
+                                <!-- <i data-feather="mail" class="w-5 h-5"></i> -->
+                                <i class="ri-mail-line w-5 h-5" ></i>
+                            </div>
+                            <div >
+                                <h3 class="font-bold mb-1">Email Us</h3>
+                                <p>hr@secogroupe.com</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div  class="bg-white bg-opacity-20 py-3 px-4 rounded-lg mr-4">
+                                 <i class="ri-phone-line w-5 h-5" ></i>
+                            </div>
+                            <div >
+                                <h3 class="font-bold mb-1">Call Us</h3>
+                                <p>954-314-7441 / 954-314-7442</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start">
+                            <div  class="bg-white bg-opacity-20 py-3 px-4 rounded-lg mr-4">
+                                 <i class="ri-map-pin-line w-5 h-5" ></i>
+                            </div>
+                            <div >
+                                <h3 class="font-bold mb-1">Visit Us</h3>
+                                <p>2701 W Oakland Park Blvd Fort Lauderdale, FL 33311</p>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3580.9350490021634!2d-80.1822282249029!3d26.166244691771418!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d90151d4222589%3A0x7b86f33b70351760!2s2701%20W%20Oakland%20Park%20Blvd%2C%20Fort%20Lauderdale%2C%20FL%2033311%2C%20%C3%89tats-Unis!5e0!3m2!1sfr!2sht!4v1764255098439!5m2!1sfr!2sht" loading="lazy" width="100%" height="400" frameborder="0" allowfullscreen="" class="rounded-2xl" style="border: 0px;"></iframe>
+                    <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3580.9350490021634!2d-80.1822282249029!3d26.166244691771418!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d90151d4222589%3A0x7b86f33b70351760!2s2701%20W%20Oakland%20Park%20Blvd%2C%20Fort%20Lauderdale%2C%20FL%2033311%2C%20%C3%89tats-Unis!5e0!3m2!1sfr!2sht!4v1764255098439!5m2!1sfr!2sht" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+                    <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3589.3473081479046!2d-80.17778278870843!3d25.890950877176003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9b208b6becf7b%3A0xaed570126d8cd980!2s1175%20NE%20125th%20St%20%23612%2C%20North%20Miami%2C%20FL%2033161%2C%20USA!5e0!3m2!1sen!2sht!4v1760387081863!5m2!1sen!2sht" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+                </div>
+                
+                <div class="lg:w-1/2 lg:pl-12">
+                    <form action="https://formspree.io/f/xlgdqnkq"
+  method="POST" class="bg-white rounded-xl p-8 shadow-lg text-gray-600 h-full flex flex-col">
+                        <h3  class="text-2xl font-bold text-gray-700 mb-6">Send Us a Message</h3>
+                        <div class="mb-6">
+                            <label for="name" class="block text-gray-600 font-medium mb-2">Your Name</label>
+                            <input type="text" name="name" id="name" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                        </div>
+                        <div class="mb-6">
+                            <label for="email" class="block text-gray-600 font-medium mb-2">Email Address</label>
+                            <input type="email" name="email" id="email" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                        </div>
+                        <!-- <div class="mb-6">
+                            <label for="service" class="block text-gray-600 font-medium mb-2">Service Interested In</label>
+                            <p-select [options]="languages" [fluid]="true"  formControlName="selectedLanguage" optionLabel="name" placeholder="Select a Language" class="w-full md:w-30" />
+                        </div> -->
+                        <div class="mb-6">
+                            <label for="message" class="block text-gray-600 font-medium mb-2">Your Message</label>
+                            <textarea id="message" name="message" rows="4" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+                        </div>
+                        <button type="submit" class="w-full mt-auto bg-(--my-sec-bg) hover:bg-orange-400 text-white px-6 py-3 rounded-lg font-medium transition duration-300">
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <!-- <div class=" my-5"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1307.1160614194812!2d-72.28561754539967!3d18.543683037502134!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8eb9e71c3fdf86c9%3A0xcfb22144c3056b13!2sSeco%20Groupe!5e0!3m2!1sfr!2sht!4v1752422752289!5m2!1sfr!2sht" loading="lazy" width="100%" height="400" frameborder="0" allowfullscreen="" class="rounded-2xl shadow-2xl" style="border: 0px;"></iframe></div> -->
+        </div>
+
+    </section>
+    
+ <my-footer/>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 288 288">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#radial-gradient-2);
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        mix-blend-mode: multiply;
+        opacity: .7;
+      }
+
+      .cls-4 {
+        fill: none;
+      }
+
+      .cls-5 {
+        clip-path: url(#clippath-1);
+      }
+
+      .cls-6 {
+        isolation: isolate;
+      }
+
+      .cls-7 {
+        clip-path: url(#clippath-2);
+      }
+
+      .cls-2 {
+        fill: url(#radial-gradient-3);
+      }
+
+      .cls-8 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-3 {
+        fill: url(#radial-gradient);
+      }
+    </style>
+    <clipPath id="clippath">
+      <polygon class="cls-4" points="50.68 138.97 19.16 138.97 124.14 241.1 155.66 241.1 50.68 138.97"/>
+    </clipPath>
+    <radialGradient id="radial-gradient" cx="2405.02" cy="635.37" fx="2405.02" fy="635.37" r="37.97" gradientTransform="translate(804.49 14450.24) rotate(-90) scale(5.92 -1.11)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1b1464" stop-opacity=".5"/>
+      <stop offset=".06" stop-color="#142b5e" stop-opacity=".37"/>
+      <stop offset=".16" stop-color="#0b4a58" stop-opacity=".2"/>
+      <stop offset=".3" stop-color="#056053" stop-opacity=".09"/>
+      <stop offset=".48" stop-color="#016c50" stop-opacity=".02"/>
+      <stop offset="1" stop-color="#017050" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="clippath-1">
+      <polygon class="cls-4" points="66.9 87.53 19.18 87.53 178.1 242.14 225.81 242.14 66.9 87.53"/>
+    </clipPath>
+    <radialGradient id="radial-gradient-2" cx="2401.05" cy="602.18" fx="2401.05" fy="602.18" r="57.48" gradientTransform="translate(810.36 14417.41) rotate(-90) scale(5.92 -1.11)" xlink:href="#radial-gradient"/>
+    <clipPath id="clippath-2">
+      <polygon class="cls-4" points="76.88 45.86 16.31 45.86 218.06 242.14 278.63 242.14 76.88 45.86"/>
+    </clipPath>
+    <radialGradient id="radial-gradient-3" cx="2398.33" cy="577.14" fx="2398.33" fy="577.14" r="72.98" gradientTransform="translate(813.59 14393.13) rotate(-90) scale(5.92 -1.11)" xlink:href="#radial-gradient"/>
+  </defs>
+  <g class="cls-6">
+    <g id="Layer_1" data-name="Layer 1">
+      <g>
+        <g class="cls-8">
+          <ellipse class="cls-3" cx="101.99" cy="220.93" rx="41.99" ry="224.67" transform="translate(-126.35 136.83) rotate(-45)"/>
+        </g>
+        <g class="cls-5">
+          <ellipse class="cls-1" cx="144.57" cy="211.6" rx="63.56" ry="340.09" transform="translate(-107.28 164.2) rotate(-45)"/>
+        </g>
+        <g class="cls-7">
+          <ellipse class="cls-2" cx="175.49" cy="203.37" rx="80.69" ry="431.77" transform="translate(-92.41 183.66) rotate(-45)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

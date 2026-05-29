@@ -1,0 +1,16 @@
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 230px;
+  margin: 0px;
+  font-weight: 900;
+  /* position: absolute; */
+  /* left: 50%; */
+  /* -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%); */
+  background: url('/img/bg.jpg') ;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: contain;
+  background-position: center;
+}

@@ -1,0 +1,172 @@
+<!-- <my-navbar/> -->
+<section class="h-screen w-full relative bg-[url(/v4/img/services/seco_tech_1_1440.webp)] bg-no-repeat bg-cover bg-[100%_100%] lg:bg-center">
+    <div class="absolute z-5 w-full">
+        <v4-navbar [isTransparent]="true"></v4-navbar>
+
+    </div>
+    <img src="v4/assets/bg-about.svg" alt="About Us" class="w-full h-full object-cover object-center absolute top-0 left-0">
+    <!-- <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+        <h1 class="text-4xl md:text-6xl font-bold text-white">About Us</h1>
+    </div> -->
+
+    <div class="relative w-full h-full flex items-center justify-center lg:justify-start z-3 p-10">
+        <div class="lg:w-[30%] flex flex-col gap-5  text-white bg-gray-700/35 lg:bg-transparent p-5 lg:text-gray-700">
+            <h1 class="raleway-bold text-5xl ">About Us</h1>
+            <p class="raleway text-xl">Seco Groupe is an international business support company providing hospitality support, janitorial cleaning, staffing solutions, concierge, and security services across multiple countries.</p>
+        </div>
+    </div>
+
+</section>
+<!-- <section class="my-10 ">
+    <my-container>
+        
+            <div class="col-span-12 relative  w-full h-[70vh] z-2 text-gray-600 flex flex-col items-center justify-center gap-5">
+                <div class="cube absolute auto-show rounded-xl z-1 top-0 left-[20%] lg:left-0  w-[180px] h-[180px] blur-md bg-amber-500/70"></div>
+                <div class="cube absolute rounded-xl z-1 top-0 right-[20%] lg:right-0  w-[200px] h-[200px] blur-md bg-blue-500"></div>
+                <div class="cube absolute auto-show rounded-xl z-1 top-[10%] left-[20%] lg:left-[-10%] w-[100px] h-[100px]  bg-amber-500/70"></div>
+                <div class="cube absolute rounded-xl z-1 top-[10%] right-[20%] lg:right-[-10%]  w-[120px] h-[120px]  bg-blue-500"></div>
+
+                <h1 class=" px-2 text-4xl  lg:text-6xl  z-2 uppercase font-bold text-center">
+                    Our Mission, Vision and Values
+                </h1>
+                <p class="text-xl lg:text-3xl w-[70%] z-2 md:w-[50%] text-center">
+                    These principles guide every action we take and every service we deliver to our clients.
+                </p>
+            </div>
+
+        
+    </my-container>
+</section> -->
+
+<section class="relative z-2">
+    <my-container>
+        <div class="section-animate col-span-12 py-5 px-5 lg:px-0 flex flex-col lg:grid lg:grid-cols-2 gap-5 items-center text-gray-500  lg:h-[70vh] mb-5">
+            
+            <img loading="lazy" class="" src="img/team_building_idea_concept.png" alt="teamworker">
+           
+            <div class=" text-center lg:text-start">
+                <h2 class="text-4xl font-bold text-gray-600 mb-3" >Our Mission</h2>
+                <!-- <p class="">
+                    To be the trusted, single-source provider of integrated facility management,
+                    staffing, and security solutions. We are dedicated to delivering
+                    uncompromising quality, ensuring operational efficiency, and maintaining
+                    safe, pristine environments that allow our clients to focus entirely on their core
+                    business.
+                </p> -->
+                <p class="raleway text-xl">
+                    Our mission is to deliver reliable workforce and operational support solutions that help businesses operate efficiently while maintaining high standards of service, cleanliness, safety, and professionalism.
+                </p>
+            </div>
+        </div>
+        <div class="  py-5 px-5 flex flex-col  md:px-0  text-gray-600 lg:h-[70vh]">
+            <my-container>
+                <div class="flex flex-col-reverse md:flex-row  gap-10 items-center ">
+
+                    <div class="text-center lg:text-start auto-show">
+                        <h2 class="text-4xl font-bold  font-bold mb-3 " >Our Vision</h2>
+                        <!-- <p class="">
+                            To be recognized as the premier and most dependable integrated services
+                            partner in the industry, continuously setting the benchmark for professional
+                            excellence, technological integration, and unparalleled client satisfaction across
+                            all facility and staffing verticals.
+                        </p> -->
+                        <p class="raleway text-xl">
+                            We aim to become a trusted international provider of hospitality support, staffing, janitorial cleaning, concierge, and security services recognized for professionalism, reliability, and service excellence.
+                        </p>
+                    </div>
+                    <img class="w-full" src="img/illustration_concept_vision_entreprise.png" alt="">
+                </div>
+            </my-container>
+
+        </div>
+    </my-container>
+</section>
+
+<section >
+    <my-container>
+        <div class="section-animate col-span-12 mt-20">
+            <div class="text-gray-600 text-center px-2">
+                <h2 class="text-4xl  font-bold mb-3 fade-up">Our Core Values</h2>
+                <p class="fade-up raleway text-lg">These are the fundamental beliefs that dictate our conduct and culture:</p>
+            </div>
+
+            <div class="grid lg:grid-cols-2 lg:gap-4  py-10 text-gray-600">
+                @for(item of ourCoreValueCards; track $index){
+                    <div class="flex  flex-col items-center p-8 rounded-2xl  auto-show">
+                        
+                        <h3 class="text-xl w-fit font-semibold mb-2 mr-auto text-left">{{item.title}}</h3>
+                        <p class="text-gray-600 raleway text-xl">
+                            {{item.description}}
+                        </p>
+                    </div>
+                }
+                
+            </div>
+        </div>
+    </my-container>
+</section>
+
+<section class="py-20 bg-white text-gray-800 " style="background-image: url(/img/global_team.svg),url(/secogroupe3.0/img/global_team.svg)" >
+  
+
+ 
+  <!-- <div class=" overflow-hidden">
+    <div class=" h-[50vh]">
+      <img src="img/global_team.svg"
+           alt="Team working together"
+           class="w-full h-full object-cover " style="object-position: 0px 0px;">
+    </div>
+    
+  </div> -->
+
+
+  <my-container>
+        <div class="px-10 lg:px-0 col-span-12">
+          <h2 class="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-16">Why Choose <span class="text-(--my-sec-bg)">SECOGROUPE </span> ?</h2>
+    <div class="grid lg:grid-cols-4 md:grid-cols-2 gap-4">
+    
+        <div class="flex flex-col items-center text-center p-8 bg-gray-50 rounded-2xl shadow hover:shadow-lg transition">
+            <i class="ri-links-fill text-(--my-sec-bg) text-5xl mb-4"></i>
+            <h3 class="text-xl font-semibold mb-2">Integrated Approach</h3>
+            <p class="text-gray-600 raleway text-lg">
+              Get all your essential services under one contract, simplifying vendor management and ensuring seamless coordination.
+
+            </p>
+        </div>
+        
+        <div class="flex flex-col items-center text-center p-8 bg-gray-50 rounded-2xl shadow hover:shadow-lg transition">
+          <i class="ri-shield-star-line text-(--my-sec-bg) text-5xl mb-4"></i>
+          <h3 class="text-xl font-semibold mb-2">Trained & Certified Teams</h3>
+          <p class="text-gray-600 raleway text-lg">
+            Our personnel are not just staff; they are vetted experts dedicated to professional excellence in every role.
+
+          </p>
+        </div>
+        
+        <div class="flex flex-col items-center text-center p-8 bg-gray-50 rounded-2xl shadow hover:shadow-lg transition">
+          <i class="ri-award-line text-(--my-sec-bg) text-5xl mb-4"></i>
+          <h3 class="text-xl font-semibold mb-2">Quality Assurance</h3>
+          <p class="text-gray-600 raleway text-lg">
+            We implement rigorous standards and supervision across all divisions to guarantee consistent, high-quality results.
+          </p>
+        </div>
+      
+        <div class="flex flex-col items-center text-center p-8 bg-gray-50 rounded-2xl shadow hover:shadow-lg transition">
+          <i class="ri-settings-4-line text-(--my-sec-bg) text-5xl mb-4"></i>
+          <h3 class="text-xl font-semibold mb-2">Customized Solutions</h3>
+          <p class="text-gray-600 raleway text-lg">
+            We don't believe in one-size-fits-all. We work with you to create a service package that precisely meets your operational needs and budget.
+          </p>
+        </div>
+    </div>
+        </div>
+  </my-container>
+
+ 
+
+</section>
+
+ <my-footer/>
+
+
+
