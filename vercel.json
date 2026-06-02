@@ -1,9 +1,6 @@
 // Note: Please change "secogroupe-ssr" with your project name
 {
   "version": 2,
-  "public": true,
-  "name": "secogroupe-ssr", // replace project name
-  "buildCommand": "npm run build", // this is important, because of postbuild hook
   "rewrites": [
     { "source": "/(.*)", "destination": "/api" }
   ],
