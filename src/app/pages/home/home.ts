@@ -13,6 +13,7 @@ import { MySlider } from '../../components/my-slider/my-slider';
 import { Carousel } from 'primeng/carousel';
 import { CardModule } from 'primeng/card';
 import { ButtonModule } from 'primeng/button';
+import { AnimateOnScrollDirective } from '../../directives/animate-on-scroll';
 
 interface CardService {
   name: string;
@@ -22,7 +23,7 @@ interface CardService {
 
 @Component({
   selector: 'app-home',
-  imports: [ButtonModule, CardModule, CommonModule, TranslatePipe, V4Home, Container, Footer, ReactiveFormsModule, MySlider, Carousel],
+  imports: [AnimateOnScrollDirective, ButtonModule, CardModule, CommonModule, TranslatePipe, V4Home, Container, Footer, ReactiveFormsModule, MySlider, Carousel],
   templateUrl: './home.html',
   styleUrl: './home.css',
 })
