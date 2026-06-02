@@ -3,10 +3,11 @@ import { Navbar } from '../../components/navbar/navbar';
 import { Container } from '../../components/container/container';
 import { Footer } from '../../components/footer/footer';
 import { isPlatformBrowser } from '@angular/common';
+import { AnimateOnScrollDirective } from '../../directives/animate-on-scroll';
 
 @Component({
   selector: 'app-about',
-  imports: [Navbar, Footer, Container, Navbar],
+  imports: [Navbar, Footer, Container, Navbar, AnimateOnScrollDirective],
   templateUrl: './about.html',
   styleUrl: './about.css',
 })

@@ -16,5 +16,5 @@
     } */
 
     .active{
-        background: #faae3b85;
+        color: var(--v4-prim-bg);
     }
