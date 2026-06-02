@@ -9,7 +9,9 @@ import { join } from 'node:path';
 
 const browserDistFolder = join(import.meta.dirname, '../browser');
 
-const app = express();
+export const app = express();
+
+
 const angularApp = new AngularNodeAppEngine();
 
 /**
@@ -23,6 +25,10 @@ const angularApp = new AngularNodeAppEngine();
  * });
  * ```
  */
+
+app.get('/api/ping', (req, res) => { 
+  res.json({ message: 'pong' })
+});
 
 /**
  * Serve static files from /browser

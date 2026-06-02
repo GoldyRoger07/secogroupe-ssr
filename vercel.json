@@ -1,15 +1,29 @@
+// {
+//   "version": 2,
+//   "routes": [
+//     {
+//       "src": "/assets/(.*)",
+//       "dest": "/assets/$1",
+//       "check": true
+//     },
+//     {
+//       "src": "/(.*)",
+//       "dest": "/dist/secogroupe-ssr/server/server.mjs",
+//       "check": true
+//     }
+//   ]
+// }
+
 {
   "version": 2,
-  "routes": [
-    {
-      "src": "/assets/(.*)",
-      "dest": "/assets/$1",
-      "check": true
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/dist/secogroupe-ssr/server/server.mjs",
-      "check": true
+  "public": true,
+  "name": "secogroupe-ssr-vercel",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/api" }
+  ],
+  "functions": {
+    "api/index.js": {
+      "includeFiles": "dist/secogroupe-ssr/**"
     }
-  ]
+  }
 }
