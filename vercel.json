@@ -1,17 +1,15 @@
+// Note: Please change "secogroupe-ssr" with your project name
 {
   "version": 2,
   "public": true,
-  "name": "secogroupe-ssr",
- 
+  "name": "secogroupe-ssr", // replace project name
+  "buildCommand": "npm run build", // this is important, because of postbuild hook
   "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/api"
-    }
+    { "source": "/(.*)", "destination": "/api" }
   ],
-   "functions": {
+  "functions": {
     "api/index.js": {
-      "includeFiles": "dist/secogroupe-ssr/**"
+      "includeFiles": "dist/secogroupe-ssr/**" // replace project name
     }
   }
 }

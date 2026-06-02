@@ -1,13 +1,10 @@
-// api/index.js
-// import { reqHandler } from '../dist/secogroupe-ssr/server/server.mjs';
-
-// export default async (req, res) => {
-//   return reqHandler(req, res);
-// };
-
+// Please change "secogroupe-ssr" with your actual project name
 
 const path = require('path');
 
-const serverDistPath = path.join(process.cwd(), 'dist/secogroupe-ssr/server/server.mjs');
+const serverDistPath = path.join(
+  process.cwd(),
+  'dist/secogroupe-ssr/server/server.mjs' // replace project name
+);
 
 export default import(serverDistPath).then(module => module.app);

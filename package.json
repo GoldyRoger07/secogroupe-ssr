@@ -2,6 +2,7 @@
   "name": "secogroupe-ssr",
   "version": "0.0.0",
   "scripts": {
+    "postbuild": "node scripts/fix-index-file-name.js",
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
