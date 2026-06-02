@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "routes": [
+    {
+      "src": "/assets/(.*)",
+      "dest": "/assets/$1",
+      "check": true
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/dist/secogroupe-ssr/server/server.mjs",
+      "check": true
+    }
+  ]
+}
