@@ -1,9 +1,5 @@
-// This file serves as the entry point for Vercel's serverless function
-// It imports the Angular SSR server and handles requests
-
-// Import required modules
-const path = require('path');
-
-const serverDistPath = path.join(process.cwd(), 'dist/secogroupe-ssr/server/server.mjs');
-
-export default import(serverDistPath).then(module => module.app);
+module.exports = async (req, res) => {
+  // Replace 'your-project-name' with your actual directory name inside /dist
+  const server = await import('../dist/secogroupe-ssr/server/server.mjs');
+  return server.reqHandler(req, res);
+};
